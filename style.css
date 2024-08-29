@@ -1,0 +1,64 @@
+* ,
+html{
+    padding:0;
+    margin:0;
+}
+
+body{
+    padding:0;
+    margin:0;
+    background-color: gray;
+}
+
+/*NAAVBAR start*/
+.container-navbar .container-div{
+    background-color:white;
+    border:1px solid black;
+}
+
+
+ .ul{
+    display:flex;
+    list-style: none;
+    margin:10px;
+}
+
+.li .a{
+    background-color:white;
+    border:1px solid black;
+    color:black;
+    padding:5px;
+    margin:5px;
+    text-decoration:none;
+}
+
+.li .a:hover{
+    background-color: gold;
+    transition: .7s ease-in-out;
+    transition-delay: .3s;
+}
+/*NAAVBAR END*/
+
+/* CONTENT START */
+.container-photo{
+    display:flex;
+    overflow: auto;
+    white-space: nowrap;
+}
+
+.container-photo::-webkit-scrollbar{
+    display:none;
+}
+
+.photo{
+    width: 100vh;
+    height: 100vh;
+}
+
+.container-photo .photo{
+    object-fit: cover;
+    flex-shrink: 0;
+}
+                                                                                                                             
+
+/* CONTENT END */
